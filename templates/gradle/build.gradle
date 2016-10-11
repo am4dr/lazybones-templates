@@ -1,0 +1,39 @@
+//buildScript {
+//    ext.kotlin_version = '1.0.4'
+//    repositories {
+//        jcenter()
+//    }
+//    dependencies {
+//        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+//    }
+//}
+plugins {
+    id 'com.github.ben-manes.versions' version '0.13.0'
+//    id 'java'
+//    id 'groovy'
+}
+//apply plugin: 'kotlin'
+
+// プロパティは完全修飾したい
+//group = ''
+//version = ''
+//sourceCompatibility = 1.8
+//targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+//    compile 'org.codehaus.groovy:groovy:2.4.7'
+//    compile 'org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version'
+
+//    commons-cli:commons-cli:1.3.1
+
+//    compile 'org.slf4j:slf4j-api:1.7.21'
+//    testRuntime 'org.slf4j:slf4j-simple:1.7.21'
+//
+//    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+}
+
+
