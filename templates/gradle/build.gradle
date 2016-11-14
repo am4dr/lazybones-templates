@@ -1,10 +1,10 @@
 //buildscript {
-//    ext.kotlin_version = '1.0.4'
+//    ext.kotlin_version = '1.0.5'
 //    repositories {
 //        jcenter()
 //    }
 //    dependencies {
-//        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+//        classpath group:'org.jetbrains.kotlin', name:'kotlin-gradle-plugin', version: kotlin_version
 //    }
 //}
 plugins {
@@ -26,8 +26,7 @@ repositories {
 
 dependencies {
 //    compile 'org.codehaus.groovy:groovy:2.4.7'
-//    compile 'org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version'
-
+//    compile group:'org.jetbrains.kotlin', name :'kotlin-stdlib', version: kotlin_version
 //    commons-cli:commons-cli:1.3.1
 
 //    compile 'org.slf4j:slf4j-api:1.7.21'
