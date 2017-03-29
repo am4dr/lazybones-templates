@@ -1,4 +1,7 @@
 
+# Lazybones ###########################
+.lazybones
+
 # Gradle ##############################
 .gradle
 build/
