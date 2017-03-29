@@ -13,6 +13,8 @@ buildscript {
 apply plugin: "uk.co.cacoethes.lazybones-templates"
 
 lazybones {
+    packageExclude "**/*.swp", ".gradle", "build"
+
     repositoryName = "am4dr/lazybones-templates"
     repositoryUsername = project.bintrayUsername
     repositoryApiKey = project.bintrayApiKey
