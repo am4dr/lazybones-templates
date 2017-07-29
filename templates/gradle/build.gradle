@@ -1,20 +1,10 @@
-//buildscript {
-//    ext.kotlin_version = '$KOTLIN_VERSION'
-//    repositories {
-//        jcenter()
-//    }
-//    dependencies {
-//        classpath group:'org.jetbrains.kotlin', name:'kotlin-gradle-plugin', version: kotlin_version
-//    }
-//}
 plugins {
     id 'com.github.ben-manes.versions' version '$BEN_MANES_VERSIONS_VERSION'
+//    id 'org.jetbrains.kotlin.jvm' version '$KOTLIN_VERSION'
 //    id 'java'
 //    id 'groovy'
 }
-//apply plugin: 'kotlin'
 
-// プロパティは完全修飾したい
 //group = ''
 //version = ''
 //sourceCompatibility = 1.8
@@ -26,7 +16,7 @@ repositories {
 
 dependencies {
 //    compile 'org.codehaus.groovy:groovy:$GROOVY_VERSION'
-//    compile group:'org.jetbrains.kotlin', name :'kotlin-stdlib', version: kotlin_version
+//    compile group:'org.jetbrains.kotlin', name :'kotlin-stdlib', version: '$KOTLIN_VERSION'
 //    runtime 'commons-cli:commons-cli:$COMMONS_CLI_VERSION'
 
 //    compile 'org.slf4j:slf4j-api:$SLF4J_VERSION'
