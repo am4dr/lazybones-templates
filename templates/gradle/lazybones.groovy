@@ -3,8 +3,8 @@ import java.nio.file.Paths
 
 def defaultConfig = new ConfigSlurper().parse( '''
 version {
-    kotlin = '1.1.1'
-    ben_manes_versions = '0.14.0'
+    kotlin = '1.1.3-2'
+    ben_manes_versions = '0.15.0'
     groovy = '2.4.10'
     commons_cli = '1.4'
     slf4j = '1.7.25'
